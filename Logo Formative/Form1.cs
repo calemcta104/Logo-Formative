@@ -34,7 +34,6 @@ namespace Logo_Formative
             g.Clear(Color.LightGray);
 
             // Shapes
-
             //red square with dot
             g.TranslateTransform(200, 50);
             g.RotateTransform(310);
@@ -61,7 +60,8 @@ namespace Logo_Formative
             g.RotateTransform(310);
             g.DrawString("Domino's", drawFont, WhiteBrush, new Rectangle());
             g.ResetTransform();
-           
+          
+            //Comment for Git
         }
     }
 }
